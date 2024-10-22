@@ -44,13 +44,14 @@ ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
-RULE-SET,ChinaCompanyIp,🎯 全球直连,no-resolve
-RULE-SET,Download,🎯 全球直连
-RULE-SET,GoogleCNProxyIP,🚀 节点选择,no-resolve
-RULE-SET,ChinaIp,🎯 全球直连,no-resolve
-GEOIP,CN,🎯 全球直连,no-resolve
-MATCH,🐟 漏网之鱼
-
+rules:
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连,no-resolve
+  - RULE-SET,Download,🎯 全球直连
+  - RULE-SET,GoogleCNProxyIP,🚀 节点选择,no-resolve
+  - RULE-SET,ChinaIp,🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连,no-resolve
+  - MATCH,🐟 漏网之鱼
+rule-providers:
   GoogleCNProxyIP:
     type: http
     behavior: classical
