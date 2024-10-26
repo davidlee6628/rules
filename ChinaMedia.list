@@ -72,7 +72,7 @@ DOMAIN-SUFFIX,yangshipin.cn
 DOMAIN-SUFFIX,dnsany.com
 DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,chinamobile.com
-# 自定义
+# 影视自定义
 DOMAIN-KEYWORD,cdn
 DOMAIN-KEYWORD,vip
 DOMAIN-KEYWORD,ipify
@@ -106,6 +106,10 @@ DOMAIN-KEYWORD,bfzy
 DOMAIN-SUFFIX,m3u.ckflv-cn.sbs
 DOMAIN-KEYWORD,svipsvip
 DOMAIN-KEYWORD,cdnlz
-
-
-
+DOMAIN-SUFFIX,newjiexi.gotka.top
+DOMAIN-SUFFIX,v.cdnlz3.com
+DOMAIN-SUFFIX,cdn-us.ckflv-cdn-hk.sbs
+DOMAIN-SUFFIX,jx.777jiexi.com
+DOMAIN-SUFFIX,svip.high24-playback.com
+DOMAIN-SUFFIX,vip.bljiex.com
+DOMAIN-SUFFIX,2.08bk.com
